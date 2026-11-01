@@ -1,2 +1,18 @@
-# dot-health-service
-Created by Dot Orb Multi-Agent AI Assistant
+# Dot Health Service
+
+Минималистичный FastAPI сервис для проверки работоспособности.
+
+## Установка и запуск
+
+1. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Запустите сервис:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+3. Проверьте эндпоинт:
+   Откройте в браузере или выполните запрос: `http://127.0.0.1:8000/health`
